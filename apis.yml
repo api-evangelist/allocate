@@ -1,7 +1,29 @@
 aid: allocate
 name: Allocate
-description: Allocate is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Allocate is a technology platform positioned as an "operating system for
+  private markets," enabling wealth advisory firms, family offices, and asset
+  managers to source, transact, and manage private-market investments across
+  venture capital, growth equity, buyouts, and private credit. The platform
+  offers white-label fund creation for advisors, AI-powered portfolio management
+  with document aggregation, curated manager access, and SPV infrastructure for
+  aggregating smaller commitments. Allocate reports over $4.9B in assets on
+  platform, 370+ wealth advisory firm clients, and 1,500+ manager relationships.
+  It is a private company backed by investors including Anthemis, a16z, Portage,
+  and M13. Allocate does not currently publish a public developer program or API;
+  this API Evangelist profile captures its identity and public web properties.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://allocate.co/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/allocate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +36,45 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Private Markets
+- Wealth Management
+- Fintech
+- Investment Platform
+- Venture Capital
+- Private Equity
+- Asset Management
 apis: []
+common:
+- type: DomainSecurity
+  url: security/allocate-domain-security.yml
+- type: Website
+  url: https://allocate.co
+  name: Allocate Website
+- type: SignUp
+  url: https://allocate.co/get-in-touch
+  name: Get in Touch / Request Access
+- type: Login
+  url: https://app.allocate.co/login
+  name: Platform Login
+- type: Blog
+  url: https://allocate.co/allocate-institute
+  name: Allocate Institute (Insights & Research)
+- type: Compliance
+  url: https://allocate.co/compliance-and-security
+  name: Security & Compliance (SOC 2 Type II)
+- type: PrivacyPolicy
+  url: https://allocate.co/privacy-policy
+  name: Privacy Policy
+- type: TermsOfService
+  url: https://allocate.co/legal
+  name: Legal / Terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
