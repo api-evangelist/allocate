@@ -12,6 +12,17 @@ description: >-
   It is a private company backed by investors including Anthemis, a16z, Portage,
   and M13. Allocate does not currently publish a public developer program or API;
   this API Evangelist profile captures its identity and public web properties.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
